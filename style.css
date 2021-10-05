@@ -2,10 +2,14 @@
     background-color: #1F2937;
 }
 
-.header {
+.header, .subheader {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+}
+
+.header {
+    flex-direction: column;
 }
 
 .logo {
@@ -15,6 +19,7 @@
 
 .hero {
     display: flex;
+    justify-content: space-around;
 }
 
 .hero-main-text {
