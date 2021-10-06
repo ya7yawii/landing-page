@@ -1,3 +1,7 @@
+body {
+    font-family: sans-serif;
+}
+
 /* Styles for section one */
 
 .section-one {
@@ -107,4 +111,25 @@ ul {
     color: gray;
     text-align: center;
     width: 130px;
+}
+
+/* Styles for section three */
+
+.section-three {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 100px 220px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: light;
+    color: #1F2937;
+}
+
+.quote-author {
+    font-size: 20px;
+    font-weight: bold;
 }
