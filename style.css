@@ -169,3 +169,14 @@ ul {
 .bordered {
     border: 2px solid white;
 }
+
+/* Styles for footer */
+
+.footer {
+    background-color: #1F2937;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
